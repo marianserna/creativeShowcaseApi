@@ -27,6 +27,8 @@ gem 'active_model_serializers', '~> 0.10.6'
 gem 'http', '~> 2.2', '>= 2.2.2'
 # Allows paperclip to send images to Amazon S3
 gem 'aws-sdk', '~> 2.9', '>= 2.9.22'
+# Avoid frustrating CORS issues (Handle CORS)
+gem 'rack-cors', '~> 0.4.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
