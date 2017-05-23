@@ -18,12 +18,15 @@ gem 'puma', '~> 3.7'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
 # Handling images
 gem 'paperclip', '~> 5.1'
 # Format what your response looks like
 gem 'active_model_serializers', '~> 0.10.6'
 # Performing http requests in Ruby
 gem 'http', '~> 2.2', '>= 2.2.2'
+# Allows paperclip to send images to Amazon S3
+gem 'aws-sdk', '~> 2.9', '>= 2.9.22'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
