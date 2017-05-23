@@ -89,6 +89,7 @@ Rails.application.configure do
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     },
     :s3_protocol => :https,
-    :s3_region => ENV['S3_REGION']
+    :s3_region => ENV['S3_REGION'],
+    :s3_host_name => 's3.ca-central-1.amazonaws.com'
   }
 end
